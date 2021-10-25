@@ -44,7 +44,7 @@
           <div class="input-group-prepend">
             <span class="input-group-text">From</span>
           </div>
-          <!-- select the desired currency -->
+          <!-- select the desired currency from the drop down menu-->
           <select class="form-control form" id="sell">
             <option value="">Select One …</option>
             <option value="USD">USD</option>
@@ -102,7 +102,26 @@
           </select>
         </div>
       </div>
+
+      <div class="text-center">
+        <!-- conversion buttom -->
+        <button class="btn btn-primary convert m02" type="submit">Convert Currency
+      </button>
+      <!-- reset the currency -->
+      <button class="btn btn-primary m-2" onclick="clearVal()">Reset Currency
+      </button>
+      </div>
+      
     </div>
+    <div id="finalAmount" class="text-center">
+      <!-- display the converted amount in the desired currency -->
+      <h2>Converted Amount :
+        <span class="finalValue" style="color:green;">
+        </span>
+      </h2>
+    </div>
+    <script src="script.js"></script>
+
 </div>  
 </body>
 </html>
