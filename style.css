@@ -1,7 +1,51 @@
+/* body styling */
 body {
   background-color: whitesmoke;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+/* heading */
+.heading {
+  font-family: Overpass Mono;
+  margin: 40px auto 25px;
+}
+
+/* hr styling */
+
+hr {
+  border-top: 2px solid black;
+  width: 40%;
+  margin-bottom: 45px;
+}
+
+/* main styling */
+.main {
+  width: 50vw;
+  margin: auto;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: slategrey;
+  color: whitesmoke;
+}
+
+/* label styling  */
+label {
+  font-size: 20px;
+}
+
+/* button styling  */
+.btn {
+  width: 175px;
+}
+
+/* final amount and value  */
+#finalAmount {
+  font-family: Overpass Mono;
+  display: none;
+  margin: 45px auto;
+}
+
+#finalAmount h2 {
 }
