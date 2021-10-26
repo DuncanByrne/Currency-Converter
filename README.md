@@ -10,6 +10,9 @@ drink in that country. You can also use this if you're just a curious person and
 This website is designed to give someone an easy and simple view on the exchange rates in the world, and exactly how much it would cost them to buy a 3 bedroom condo
 in France if they wish to do that as well.
 
+# TECHNOLOGY USED 
+The technology used in this project was simple HTML mixed in with some basic CSS and JavaScript as well as bootstrap.
+
 # LINK TO DEPLOYED
 
 # IMAGES 
