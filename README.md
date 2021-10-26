@@ -15,6 +15,8 @@ The technology used in this project was simple HTML mixed in with some basic CSS
 
 # LINK TO DEPLOYED
 
+https://duncanbyrne.github.io/Currency-Converter/
+
 # IMAGES 
 
 ![Screen Shot 2021-10-26 at 10 11 26 AM](https://user-images.githubusercontent.com/85514179/138898587-201de4fd-6770-4115-8863-327231bf72c5.png)
