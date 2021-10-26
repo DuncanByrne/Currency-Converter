@@ -13,3 +13,21 @@ var finalAmount = document.getElementById("finalAmount");
 var resultFrom;
 var resultTo;
 var searchValue;
+
+// changing the currency
+fromCurrrency.addEventListener('change', (event)=>{
+  resultFrom = `${event.target.value}`;
+});
+
+toCurrency.addEventListener('change', (event)=>{
+  resultTo = `${event.target.value}`;
+});
+
+
+// update the value of the currency
+function updateValue (e){
+  searchValue = e.target.value;
+}
+
+
+
