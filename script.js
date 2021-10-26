@@ -6,8 +6,8 @@ const api = "https://api.exchangerate-api.com/v4/latest/USD";
 
 var search = document.querySelector(".searchBox");
 var convert = document.querySelector(".convert");
-var fromCurrrency = document.querySelector(".from");
-var toCurrency = document.querySelector(".to");
+var fromCurrecy = document.querySelector(".from");
+var toCurrecy = document.querySelector(".to");
 var finalValue = document.querySelector(".finalValue");
 var finalAmount = document.getElementById("finalAmount");
 var resultFrom;
@@ -15,13 +15,15 @@ var resultTo;
 var searchValue;
 
 // changing the currency
-fromCurrrency.addEventListener('change', (event)=>{
+toCurrecy.addEventListener('change', (event) =>{
   resultFrom = `${event.target.value}`;
 });
 
-toCurrency.addEventListener('change', (event)=>{
+toCurrecy.addEventListener('change', (event) =>{
   resultTo = `${event.target.value}`;
 });
+
+search.addEventListener('input', updateValue);
 
 
 // update the value of the currency
